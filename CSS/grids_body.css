@@ -1,0 +1,31 @@
+.container0 {
+    display: grid;
+    grid-gap: 3px;
+    /*grid-template-columns: repeat(2, 1fr);*/
+    /*das kann mehr inhalt vertragen*/
+    /*grid-template-columns: repeat(12, 1fr);*/
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.container_header {
+    /*grid-column-start: 1;
+    grid-column-end: 3;*/
+    /*gleich wie oben*/
+    grid-row: 1 / 2;
+}
+
+.head_lines {
+    grid-row: 2 / 3;
+    
+}
+
+.container1 {
+    
+    grid-row: 3 / 4;
+}
+
+.container_footer {
+    /*grid-column: 1 / span 2;*/
+    /*das geht vom laezte Kolumn*/
+    grid-row: 4 / 5;
+}
