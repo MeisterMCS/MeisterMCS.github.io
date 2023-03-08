@@ -1,0 +1,29 @@
+.container_footer> header > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+
+
+
+.container_footer > div:nth-child(1n) {
+    background-color: rgb(58.82%, 80.78%, 70.59%);
+
+}
+
+.container_footer > div:nth-child(3n) {
+    background-color: hsl(151, 55%, 70%);
+
+}
+
+.container_footer > div:nth-child(2n) {
+    background-color: rgb(255, 111, 102);
+
+}
+
+.container_footer > div:nth-child(4n) {
+    background-color:#ffcc5c;
+
+}
